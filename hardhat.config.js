@@ -1,8 +1,8 @@
+require('hardhat/config').HardhatUserConfig;
 require("@nomiclabs/hardhat-ethers");
 require("dotenv").config();
 const SHARDEUM_RPC = process.env.SHARDEUM_RPC;
 const privateKey = process.env.PRIVATE_KEY;
-import('hardhat/config').HardhatUserConfig
 
 module.exports = {
   defaultNetwork: "hardhat",
